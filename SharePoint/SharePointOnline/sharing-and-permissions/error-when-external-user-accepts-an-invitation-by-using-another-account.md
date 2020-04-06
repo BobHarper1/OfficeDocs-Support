@@ -108,7 +108,7 @@ All other subscriptions must use the SharePoint Online Management Shell by follo
 5. Connect to SharePoint Online, and then type the following cmdlet:
 
    ```powershell
-   Connect-SPOService -Url https://-admin.sharepoint.com -Credential $cred
+   Connect-SPOService -Url https://<contoso>-admin.sharepoint.com -Credential $cred
    ```
 
 6. Remove the user from each site collection. Type the following cmdlet, and then press Enter:
